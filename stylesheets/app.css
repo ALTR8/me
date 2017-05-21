@@ -44,9 +44,6 @@ img.barbell {
   width: 25%;
   text-align: center;
   color: white;
-  border-color: whitesmoke;
-  border-style: solid;
-  border-radius: 2px;
 }
 
 #powerlifting-about-spacing {
@@ -54,7 +51,8 @@ img.barbell {
 }
 
 .powerlifting-scroll-content-img {
-  align: center;
+  align-self: center;
+
   margin: auto;
   height: 50%;
   width: 50%;
