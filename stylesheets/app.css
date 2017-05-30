@@ -19,19 +19,16 @@ img.barbell {
 
 }
 
-#powerlifting-scroll {
-  position: fixed;
-  z-index: 1;
-  background-color: whitesmoke;
+#powerlifting-img-container {
   float: left;
-  align-self: left;
-  height: 95%;
-  width: 45%;
+  position: absolute;
+  z-index: 1;
+  height: auto;
+  width: 60%;
   margin-left: 5%;
   margin-top: 1%;
-  display:block;
-  overflow: scroll;
-  border-radius: 1%;
+  display: inline-block;
+  overflow: hidden;s
 }
 
 #powerlifting-about {
@@ -50,13 +47,20 @@ img.barbell {
   margin-top: 3%;
 }
 
-.powerlifting-scroll-content-img {
-  align-self: center;
-
+.powerlifting-content-img {
+  position: relative;
+  z-index: 1;
   margin: auto;
-  height: 50%;
-  width: 50%;
+  height: 20%;
+  width: 20%;
+  margin-right: 2%;
   margin-top: 2%;
-  border: 1px;
-  border-color: black;
+}
+
+.powerlifting-content-img:hover {
+    position: relative;
+    width: 50%px;
+    height:auto;
+    display:block;
+    z-index:4;
 }
